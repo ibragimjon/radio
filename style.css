@@ -1,0 +1,155 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700";
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+
+body {
+  color: #eee;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #FFF3E0;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+
+section {
+  height: 100%;
+  box-sizing: border-box;
+  padding: 2% 0;
+  background: linear-gradient(#FBC02D, #FB8C00);
+  border-radius: 7px;
+  box-shadow: 0 5px 25px -5px rgba(0, 0, 0, 1);
+}
+
+
+section .temperature {
+  padding: 2% 0 0;
+  color: #3D414C;
+}
+
+section .temperature img {
+  width: 75%;
+  max-width: 96px;
+  height: auto;
+}
+
+section .temperature h2 {
+  display: inline;
+  color: #eee;
+  font-weight: 500;
+  font-size: 6em;
+}
+
+section .temperature h2 span.degree-symbol {
+  display: inline-block;
+  margin: 0px 15px;
+  font-size: 0.6em;
+  vertical-align: top;
+}
+section .temperature h2 span.alt-deg {
+  display: inline-block;
+  margin: 10px 0px 0px 15px;
+  color: #3D414C;
+  font-size: 0.3em;
+  vertical-align: top;
+}
+
+section .temperature h2 #secondary-deg{
+  color: #3D414C;
+  text-decoration: none;
+}
+
+section .temperature h2 #secondary-deg:hover {
+  color: #BBBBBB;
+}
+
+@media screen and (max-width: 372px) {
+	
+  section > h2 {
+    margin-bottom: 10px;
+  }
+  
+  section .temperature img {
+		display: block;
+    margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 271px) {
+	section .temperature {
+    padding: 1% 0 0;
+    margin: 0 auto;
+  }
+  section .temperature h2 {
+    display: block;
+    font-size: 4em;
+    margin: 0 auto;
+  }
+  section .temperature h2 span.degree-symbol {
+    margin: 0px 5px;
+    font-size: 0.5em;
+  }
+  section .temperature h2 span.alt-deg {
+    margin: 5px 0px 0px 5px;
+    font-size: 0.3em;
+  }
+}
+
+section ul {
+  padding: 0;
+  width: 100%;
+  max-width: 400px;
+  margin: 2% auto;
+}
+section ul li {
+  display: inline-block;
+  margin-right: 15%;
+  color: #3D414C;
+  font-size: 2em;
+}
+section ul li:last-child {
+  margin-right: 0px;
+}
+
+@media screen and (max-width: 271px) {
+  section ul li {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+section ul li span {
+  padding-left: 10px;
+  color: #eee;
+  font-size: 0.6em;
+  line-height: 30px;
+  vertical-align: top;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  clear: both;
+  overflow:hidden;
+  color: #000000;
+}
+
+footer p {
+  display: block;
+  font-size: 0.8em;
+  font-weight: 300;
+  width: 70%;
+  padding: 0;
+  margin: 0 auto;
+}
