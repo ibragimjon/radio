@@ -1,4 +1,4 @@
-/* @import "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700";
 @import url(http://weloveiconfonts.com/api/?family=fontawesome);
 
 [class*="fontawesome-"]:before {
@@ -152,4 +152,4 @@ footer p {
   width: 70%;
   padding: 0;
   margin: 0 auto;
-} */
+}
